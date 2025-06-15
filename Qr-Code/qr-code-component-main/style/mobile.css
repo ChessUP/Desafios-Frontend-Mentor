@@ -30,27 +30,25 @@ div#container {
     
     
     margin: auto;
-    margin-top: 50px;
-    width: 390px;
-    height: 570px;
+    margin-top: 30px;
+    
+    width: 300px;
+    height: 580px;
 }
 
 div#img {
     background-image: url(../images/image-qr-code.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     
     border-radius: 15px;
-    width: 350px;
+    width: 260px;
     margin-top: 20px;
 
-    flex-basis: 350px;
+    flex-basis: 240px;
     align-self: center;
     flex-grow: 0;
-    flex-shrink: 2;
-
-    
-    
+    flex-shrink: 1;    
 }
 
 h1 {
@@ -60,12 +58,18 @@ h1 {
     padding: 20px;
 }
 
-p {
+div.text > p {
     font-family: var(--fonte1);
     text-align: center;
-    font-size: 1em;
-    margin: 0px 60px 14px 60px;
+    font-size: 21px;
+    margin: 0px 60px 7px 60px;
 }
 
+div.attribution > p {
+    font-family: var(--fonte1);
+    font-size: 1.4em;
+    margin-top: 10px;
+    line-height: 5px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
