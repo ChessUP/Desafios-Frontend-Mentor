@@ -1,13 +1,13 @@
 @media screen and (min-width: 768px) {
     div#container {
         margin-top: 90px;
-        width: 360px;
-        height: 650px;
+        width: 320px;
+        height: 600px;
     }
 
     div#img {
-        width: 315px;
-        flex-basis: 320px;
+        width: 280px;
+        flex-basis: 260px;
     }
 
     div.text > p {
