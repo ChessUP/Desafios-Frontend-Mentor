@@ -1,6 +1,5 @@
 @media screen and (min-width: 768px) {
     div#container {
-        margin-top: 90px;
         width: 320px;
         height: 600px;
     }
