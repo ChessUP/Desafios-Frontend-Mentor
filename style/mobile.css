@@ -30,10 +30,10 @@ div#container {
     
     
     margin: auto;
-    margin-top: 30px;
+    margin-top: 4em;
     
-    width: 300px;
-    height: 580px;
+    width: 20em;
+    height: 35em;
 }
 
 div#img {
@@ -54,22 +54,25 @@ div#img {
 h1 {
     font-family: var(--fonte1);
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.4em;
     padding: 20px;
 }
 
 div.text > p {
     font-family: var(--fonte1);
     text-align: center;
-    font-size: 21px;
-    margin: 0px 60px 7px 60px;
+    font-size: 1.2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: var(--Slate500);
 }
 
-div.attribution > p {
+main > div.attribution > p {
     font-family: var(--fonte1);
     font-size: 1.4em;
-    margin-top: 10px;
-    line-height: 5px;
+    line-height: 1em;
+    position: relative;
+    bottom: 2.4em;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
