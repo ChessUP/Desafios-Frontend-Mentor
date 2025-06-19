@@ -15,12 +15,13 @@
 
     div.text > p {
         font-size: 1em;
+        margin-bottom: 2em;
     }
 
     main > div.attribution > p {
-        font-size: 1.4em;
+        font-size: 1.2em;
         position: relative;
-        bottom: 2.4em;
+        bottom: 2.0em;
     }
 }
 /*
